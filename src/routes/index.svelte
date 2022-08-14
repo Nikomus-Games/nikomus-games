@@ -11,9 +11,7 @@
 
 <div class="content">
 	<main>
-		<h1>
-			<img class="logo shadow" src="/banner.png" alt="Nikomus Games" />
-		</h1>
+		<img class="logo shadow" src="/Logo SVG.svg" alt="" />
 
 		<div class="message shadow">
 			<p>New website coming soon!</p>
@@ -39,10 +37,13 @@
 		flex: 1;
 		align-items: center;
 	}
+
 	h1 {
-		color: white;
-		font-family: 'Comfortaa', sans-serif;
-		font-size: 2rem;
+		font-size: 1.5rem;
+		letter-spacing: 1px;
+		margin-bottom: 1rem;
+		text-align: center;
+		color: #087f5b;
 	}
 
 	.logo {
