@@ -17,7 +17,7 @@
 			<p>New website coming soon!</p>
 		</div>
 	</main>
-	<footer class="shadow">© Nikomus Games Ltd 2021</footer>
+	<footer class="shadow"><div>© Nikomus Games Ltd 2022</div></footer>
 </div>
 
 <style>
