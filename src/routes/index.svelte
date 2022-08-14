@@ -14,10 +14,13 @@
 		<img class="logo shadow" src="/Logo SVG.svg" alt="" />
 
 		<div class="message shadow">
+			<h1>NIKOMUS GAMES</h1>
 			<p>New website coming soon!</p>
 		</div>
 	</main>
-	<footer class="shadow"><div>© Nikomus Games Ltd 2022</div></footer>
+	<footer class="shadow">
+		<div>© Nikomus Games Ltd 2022</div>
+	</footer>
 </div>
 
 <style>
@@ -39,11 +42,11 @@
 	}
 
 	h1 {
+		color: #087f5b;
 		font-size: 1.5rem;
 		letter-spacing: 1px;
 		margin-bottom: 1rem;
 		text-align: center;
-		color: #087f5b;
 	}
 
 	.logo {
@@ -56,14 +59,17 @@
 	}
 
 	.message {
+		align-items: center;
 		background-color: #ffffff;
 		border-radius: 1.5rem;
-		min-height: 4rem;
 		display: flex;
-		align-items: center;
+		flex-direction: column;
 		justify-content: center;
+		margin-bottom: 2rem;
 		max-width: 80%;
-		padding: 0 2rem;
+		min-height: 4rem;
+		padding: 2rem;
+		width: 24rem;
 	}
 
 	footer {
