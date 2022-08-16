@@ -6,101 +6,24 @@
 		href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
 		rel="stylesheet"
 	/>
+	<link href="/reset.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="content">
 	<main>
-		<h1>
-			<img class="logo shadow" src="/banner.png" alt="Nikomus Games" />
-		</h1>
+		<img class="logo shadow" src="/Logo SVG.svg" alt="" />
 
 		<div class="message shadow">
+			<h1>NIKOMUS GAMES</h1>
 			<p>New website coming soon!</p>
 		</div>
 	</main>
-	<footer class="shadow">© Nikomus Games Ltd 2021</footer>
+	<footer class="shadow">
+		<div>© Nikomus Games Ltd 2022</div>
+	</footer>
 </div>
 
 <style>
-	/* Reset */
-
-	/* Box sizing rules */
-	*,
-	*::before,
-	*::after {
-		box-sizing: border-box;
-	}
-
-	body {
-		margin: 15px;
-	}
-
-	/* Remove default padding */
-	ul,
-	ol,
-	legend {
-		padding: 0;
-	}
-
-	/* Remove default margin */
-	body,
-	h1,
-	h2,
-	h3,
-	h4,
-	p,
-	ul,
-	ol,
-	li,
-	fieldset,
-	figure,
-	figcaption,
-	blockquote,
-	dl,
-	dd {
-		margin: 0;
-	}
-
-	/* Set core body defaults */
-	body {
-		min-height: 100vh;
-		scroll-behavior: smooth;
-		text-rendering: optimizeSpeed;
-		line-height: 1.5;
-	}
-
-	/* Remove list styles on ul, ol elements */
-	ul,
-	ol {
-		list-style: none;
-	}
-
-	/* Make images easier to work with */
-	img {
-		max-width: 100%;
-		display: block;
-	}
-
-	/* Inherit fonts for inputs and buttons */
-	input,
-	button,
-	textarea,
-	select {
-		font: inherit;
-	}
-
-	/* Remove all animations and transitions for people that prefer not to see them */
-	@media (prefers-reduced-motion: reduce) {
-		* {
-			animation-duration: 0.01ms !important;
-			animation-iteration-count: 1 !important;
-			transition-duration: 0.01ms !important;
-			scroll-behavior: auto !important;
-		}
-	}
-
-	/* End reset */
-
 	.content {
 		background-color: #f5f5f5;
 		min-height: 100vh;
@@ -117,10 +40,13 @@
 		flex: 1;
 		align-items: center;
 	}
+
 	h1 {
-		color: white;
-		font-family: 'Comfortaa', sans-serif;
-		font-size: 2rem;
+		color: #087f5b;
+		font-size: 1.5rem;
+		letter-spacing: 1px;
+		margin-bottom: 1rem;
+		text-align: center;
 	}
 
 	.logo {
@@ -133,14 +59,17 @@
 	}
 
 	.message {
+		align-items: center;
 		background-color: #ffffff;
 		border-radius: 1.5rem;
-		min-height: 4rem;
 		display: flex;
-		align-items: center;
+		flex-direction: column;
 		justify-content: center;
+		margin-bottom: 2rem;
 		max-width: 80%;
-		padding: 0 2rem;
+		min-height: 4rem;
+		padding: 2rem;
+		width: 24rem;
 	}
 
 	footer {
